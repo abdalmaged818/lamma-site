@@ -22,13 +22,13 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-    font-family: "Adelle Sans Arabic", "Inter", system-ui, sans-serif;
+        font-family: "Adelle Sans Arabic", system-ui, sans-serif;
   overflow-x: hidden;
 }
 
 body.en {
   direction: ltr;
-      font-family: "Inter", "Adelle Sans Arabic", system-ui, sans-serif;
+          font-family: "Adelle Sans Arabic", system-ui, sans-serif;
 }
 
 body.menu-open { overflow: hidden; }
