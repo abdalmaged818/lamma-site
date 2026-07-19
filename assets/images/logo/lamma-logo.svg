@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Lamma logo placeholder</title>
+  <desc id="desc">Replace this file with the official Lamma logo without changing its filename.</desc>
+  <rect x="3" y="3" width="58" height="58" rx="18" fill="#FFFDFC" stroke="#222222" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="32" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#222222">LOGO</text>
+</svg>

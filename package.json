@@ -1,0 +1,13 @@
+{
+  "name": "lamma-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual static website for Lamma.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check-links.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
