@@ -1,0 +1,85 @@
+/*
+  Adelle Sans Arabic — @font-face declarations
+  ------------------------------------------------
+  This file is PREPARATION ONLY.
+  It is not yet linked from any HTML page and does not change
+  the current site design or typography.
+
+  Once the real font files are uploaded to:
+    assets/fonts/adelle-sans-arabic/
+  these rules will make "Adelle Sans Arabic" available for use
+  anywhere in the site's CSS via:
+    font-family: "Adelle Sans Arabic", sans-serif;
+*/
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-UltraThin.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-UltraThin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Thin.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Thin.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Light.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Regular.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-SemiBold.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Bold.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-ExtraBold.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Adelle Sans Arabic";
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Heavy.woff2") format("woff2"),
+             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Heavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
