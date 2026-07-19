@@ -1,21 +1,14 @@
 /*
   Adelle Sans Arabic — @font-face declarations
   ------------------------------------------------
-  This file is PREPARATION ONLY.
-  It is not yet linked from any HTML page and does not change
-  the current site design or typography.
-
-  Once the real font files are uploaded to:
-    assets/fonts/adelle-sans-arabic/
-  these rules will make "Adelle Sans Arabic" available for use
-  anywhere in the site's CSS via:
-    font-family: "Adelle Sans Arabic", sans-serif;
+  Official brand font. Files live in assets/fonts/adelle-sans-arabic/
+  as OTF (no WOFF2/WOFF variants were supplied), one file per weight.
+  Linked on every page. Provides weights 100-900.
 */
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-UltraThin.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-UltraThin.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-UltraThin.otf") format("opentype");
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -23,8 +16,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Thin.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Thin.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Thin.otf") format("opentype");
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -32,8 +24,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Light.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Light.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -41,8 +32,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Regular.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Regular.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -50,8 +40,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-SemiBold.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-SemiBold.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-SemiBold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -59,8 +48,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Bold.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Bold.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -68,8 +56,7 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-ExtraBold.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-ExtraBold.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-ExtraBold.otf") format("opentype");
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -77,9 +64,14 @@
 
 @font-face {
     font-family: "Adelle Sans Arabic";
-    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Heavy.woff2") format("woff2"),
-             url("../fonts/adelle-sans-arabic/AdelleSansArabic-Heavy.woff") format("woff");
+    src: url("../fonts/adelle-sans-arabic/AdelleSansArabic-Heavy.otf") format("opentype");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
+}
+
+/* Force the browser to only use the real uploaded weights above and never
+   synthesize fake bold/italic/oblique styles for missing variants. */
+html {
+    font-synthesis: none;
 }
