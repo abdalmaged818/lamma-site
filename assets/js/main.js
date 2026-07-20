@@ -31,8 +31,7 @@
           <div class="container">
             <nav class="nav" aria-label="Primary navigation">
               <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
-                <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="42" height="42">
-                <span data-ar="لُمّة" data-en="Lamma">لُمّة</span>
+                <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
               </a>
               <div class="nav-links">${navLinks("nav-link")}</div>
               <div class="nav-actions">
@@ -49,9 +48,8 @@
           <button class="mobile-menu-backdrop" type="button" data-menu-close aria-label="Close menu"></button>
           <div class="mobile-menu-panel" role="dialog" aria-modal="true" aria-label="Mobile navigation">
             <div class="mobile-menu-top">
-              <a class="brand" href="${pages.home.href}">
-                <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="42" height="42">
-                <span data-ar="لُمّة" data-en="Lamma">لُمّة</span>
+              <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
+                <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
               </a>
               <button class="menu-close" type="button" data-menu-close aria-label="Close menu">×</button>
             </div>
@@ -67,8 +65,7 @@
         <div class="container footer">
           <div>
             <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
-              <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="42" height="42">
-              <span data-ar="لُمّة" data-en="Lamma">لُمّة</span>
+              <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
             </a>
             <small data-ar="مجتمع إبداعي | إحدى منتجات وكالة حبك" data-en="A creative community | A product by Habak Agency">مجتمع إبداعي | إحدى منتجات وكالة حبك</small>
           </div>
