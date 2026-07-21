@@ -223,11 +223,11 @@ img { display: block; max-width: 100%; }
 .path-card h3 { margin: 14px 0; font-size: 42px; line-height: 1.1; }
 .path-card p { max-width: 92%; font-size: 18px; line-height: 1.8; }
 .path-card.orange { background: var(--orange); } .path-card.blue { background: var(--blue); color: white; } .path-card.green { background: var(--green); }
-.identity-icon { position: absolute; top: 42px; left: 42px; display: block; pointer-events: none; flex: none; }
-.en .identity-icon { left: auto; right: 42px; }
+.identity-icon { position: absolute; top: 20px; left: 42px; display: block; pointer-events: none; flex: none; }
+.en .identity-icon { left: auto; right: 20px; }
 .identity-icon--gatherings { width: 100px; height: 98px; color: #F7BC61; }
 .identity-icon--fellowship { width: 132px; height: 130px; color: #F4EDE1; }
-.identity-icon--spaces { width: 96px; height: 97px; color: #F4EDE1; }
+.identity-icon--spaces { width: 76px; height: 77px; color: #F4EDE1; }
 .card-bottom { display: flex; align-items: end; justify-content: space-between; gap: 15px; }
 .arrow-link { display: grid; width: 54px; height: 54px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font-size: 24px; transition: transform .2s ease; }
 .path-card:hover .arrow-link { transform: translateX(-5px); } .en .path-card:hover .arrow-link { transform: translateX(5px); }
@@ -355,11 +355,11 @@ footer { padding: 32px 0 42px; }
   .star { width: 130px; height: 130px; }
   .paths-grid { gap: 12px; }
   .path-card { min-height: 350px; padding: 26px; }
-  .identity-icon { left: 24px; top: 24px; }
-  .en .identity-icon { left: auto; right: 24px; }
-  .identity-icon--gatherings { width: 96px; height: 94px; }
+  .identity-icon { left: 24px; top: 14px; }
+  .en .identity-icon { left: auto; right: 14px; }
+  .identity-icon--gatherings { width: 68px; height: 66px; }
   .identity-icon--fellowship { width: 86px; height: 85px; }
-  .identity-icon--spaces { width: 94px; height: 95px; }
+  .identity-icon--spaces { width: 54px; height: 55px; }
   .path-card h3 { font-size: 34px; }
   .event-card { padding: 14px; border-radius: 30px; }
   .event-visual { min-height: 360px; }
