@@ -102,16 +102,26 @@
         link.target = "_blank";
         link.rel = "noreferrer";
         link.removeAttribute("data-unconfigured");
+        link.hidden = false;
       } else {
         link.removeAttribute("target");
         link.removeAttribute("rel");
         link.dataset.unconfigured = "true";
+        if (link.dataset.configHref.startsWith("social.")) {
+          link.hidden = true;
+        }
         if (link.dataset.fallback === "disabled") {
           link.removeAttribute("href");
           link.setAttribute("aria-disabled", "true");
           link.classList.add("is-disabled");
+          if (!link.querySelector(".soon-badge")) {
+            link.insertAdjacentHTML("beforeend", '<span class="soon-badge" data-ar="قريبًا" data-en="Soon">قريبًا</span>');
+          }
         }
       }
+    });
+    document.querySelectorAll(".socials").forEach((group) => {
+      group.hidden = !group.querySelector("a:not([hidden])");
     });
   }
 
