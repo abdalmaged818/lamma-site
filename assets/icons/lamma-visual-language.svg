@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="lamma-burst-21" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="94.8,0 82.5,35.3 72.4,2.1 69.3,37.4 49.9,9.4 57.1,42.6 31.6,21.8 46.9,50.9 14.3,37.4 40.8,62.3 4.1,59.2 37.7,74.8 0,83.1 36.7,86.2 8.2,106 40.8,99.7 20.4,125.7 49.9,111.2 36.7,141.3 61.1,117.4 58.1,148.6 73.4,122.6 78.5,160 86.6,122.6 101.9,156.9 98.9,120.5 123.3,146.5 109,113.2 139.6,129.9 118.2,103.9 152.9,111.2 123.3,89.4 160,87.3 124.3,77.9 160,63.4 123.3,65.5 148.8,41.6 115.2,51.9 134.5,23.9 106,42.6 117.2,8.3 94.8,37.4"/>
+  </symbol>
+
+  <symbol id="lamma-burst-12" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="82.7,0 69.8,38.7 43,9.7 50.5,49.4 10.7,36.5 38.7,67.7 0,76.2 37.6,89.1 8.6,117 49.4,108.5 36.5,148.2 66.6,120.3 76.2,160 89.1,121.3 117,151.4 109.5,110.6 148.2,123.5 120.3,92.3 160,82.7 119.2,70.9 150.3,43 110.6,50.5 122.4,12.9 92.3,39.7"/>
+  </symbol>
+
+  <symbol id="lamma-star-8" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="78.2,0 57.7,33.7 21.7,24.1 32.5,60.2 0,81.8 32.5,99.8 22.9,137.1 60.2,127.5 80.6,160 101.1,126.3 135.9,135.9 126.3,99.8 160,79.4 126.3,60.2 135.9,22.9 97.4,32.5"/>
+  </symbol>
+
+  <symbol id="lamma-spark-4" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="79.4,0 54.5,48.1 0,80.6 49.8,107.1 81.8,160 106.7,111.9 160,79.4 113.8,54.1"/>
+  </symbol>
+
+  <symbol id="lamma-block-burst" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="62.3,0 57.4,30.5 35.4,11 9.8,36.6 30.5,59.8 0,61.1 0,98.9 29.3,100.2 9.8,123.4 35.4,149 58.6,129.5 61.1,160 97.7,160 100.2,130.7 124.6,149 149,124.6 130.7,100.2 160,97.7 160,62.3 129.5,59.8 149,35.4 124.6,11 101.4,30.5 97.7,0"/>
+  </symbol>
+
+  <symbol id="lamma-organic-burst" viewBox="0 0 160 160">
+    <polygon fill="currentColor" points="112.2,0 82.4,9.5 45.4,1.2 32.2,27.3 0,47.4 9.6,79.4 0,112.6 27.5,128 47.8,160 77.6,150.5 114.6,158.8 129,131.6 160,112.6 151.6,83 160,46.2 131.3,30.8"/>
+  </symbol>
+
+  <symbol id="lamma-radial-16" viewBox="0 0 160 160">
+    <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+      <line x1="80" y1="5" x2="80" y2="65"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(22.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(45 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(67.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(90 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(112.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(135 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(157.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(180 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(202.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(225 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(247.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(270 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(292.5 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(315 80 80)"/>
+      <line x1="80" y1="5" x2="80" y2="65" transform="rotate(337.5 80 80)"/>
+    </g>
+    <circle cx="80" cy="80" r="13" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="lamma-radial-32" viewBox="0 0 160 160">
+    <defs>
+      <line id="lamma-ray-32" x1="80" y1="4" x2="80" y2="53" stroke="currentColor" stroke-width="4.7" stroke-linecap="round"/>
+    </defs>
+    <g>
+      <use href="#lamma-ray-32"/>
+      <use href="#lamma-ray-32" transform="rotate(11.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(22.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(33.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(45 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(56.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(67.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(78.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(90 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(101.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(112.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(123.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(135 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(146.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(157.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(168.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(180 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(191.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(202.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(213.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(225 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(236.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(247.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(258.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(270 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(281.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(292.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(303.75 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(315 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(326.25 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(337.5 80 80)"/>
+      <use href="#lamma-ray-32" transform="rotate(348.75 80 80)"/>
+    </g>
+    <circle cx="80" cy="80" r="27" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="doodle-circle-spark" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M91 20C72 5 38 9 22 31C8 51 12 82 31 96C52 112 83 103 96 82C109 61 107 35 91 20Z"/>
+      <path d="M59 30V88M31 59H89M40 40L80 80M80 40L40 80"/>
+    </g>
+  </symbol>
+
+  <symbol id="doodle-down-arrow" viewBox="0 0 120 120">
+    <path d="M35 92C35 52 34 20 58 18C82 16 87 43 84 83M75 74L84 84L94 74" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="doodle-dashed-arrow" viewBox="0 0 180 70">
+    <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+      <path d="M12 35H150" stroke-dasharray="13 9"/>
+      <path d="M140 24L152 35L140 46"/>
+    </g>
+  </symbol>
+
+  <symbol id="doodle-loop-arrow" viewBox="0 0 190 80">
+    <path d="M10 52H82C110 52 111 22 92 22C71 22 72 52 102 52H170M158 41L171 52L158 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="doodle-spring" viewBox="0 0 180 110">
+    <path d="M10 64 C28 78 29 24 43 24 C60 24 53 83 69 83 C86 83 77 19 94 19 C111 19 102 88 119 88 C137 88 130 29 146 29 C158 29 157 60 157 76" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="doodle-zigzag" viewBox="0 0 180 80">
+    <path d="M10 55L43 34L31 58L77 30L61 58L111 32L95 59L151 38" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="doodle-lightning-arrow" viewBox="0 0 150 130">
+    <path d="M18 112L70 38L58 82L120 16M107 20L121 15L117 30" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="doodle-coil" viewBox="0 0 190 100">
+    <path d="M9 57 C37 65 27 24 50 23 C73 22 57 82 83 79 C111 76 92 16 118 18 C145 20 124 77 157 61" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="doodle-tangle" viewBox="0 0 150 130">
+    <path d="M28 113 C19 77 38 35 73 25 C116 12 130 48 105 75 C80 102 25 93 29 54 C34 13 101 15 113 53 C125 92 67 115 39 87 C11 60 37 22 79 26" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="doodle-oval" viewBox="0 0 180 90">
+    <path d="M12 48C28 18 132 8 163 39C176 54 143 60 101 61C54 62 22 62 12 48Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="doodle-rising-line" viewBox="0 0 180 90">
+    <path d="M8 65 L33 49L46 53L59 39L71 42L86 29L99 34L114 21L128 25L148 13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="doodle-long-arrow" viewBox="0 0 210 90">
+    <path d="M10 30C63 79 137 76 188 28M174 27L189 27L185 42" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
