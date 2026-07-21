@@ -223,11 +223,10 @@ img { display: block; max-width: 100%; }
 .path-card h3 { margin: 14px 0; font-size: 42px; line-height: 1.1; }
 .path-card p { max-width: 92%; font-size: 18px; line-height: 1.8; }
 .path-card.orange { background: var(--orange); } .path-card.blue { background: var(--blue); color: white; } .path-card.green { background: var(--green); }
-.path-icon { position: absolute; top: 28px; left: 28px; width: 96px; height: 96px; opacity: .75; }
-.en .path-icon { right: 28px; left: auto; }
-.path-icon.starburst { background: var(--yellow); clip-path: polygon(50% 0,58% 35%,79% 6%,69% 39%,98% 20%,72% 45%,100% 50%,72% 55%,98% 80%,69% 61%,79% 94%,58% 65%,50% 100%,42% 65%,21% 94%,31% 61%,2% 80%,28% 55%,0 50%,28% 45%,2% 20%,31% 39%,21% 6%,42% 35%); }
-.path-icon.spark-icon { position: absolute; background: #fff; clip-path: polygon(50% 0,64% 36%,100% 50%,64% 64%,50% 100%,36% 64%,0 50%,36% 36%); }
-.path-icon.sun { border-radius: 50%; background: repeating-conic-gradient(var(--white) 0 3deg, transparent 3deg 7deg); }
+.identity-icon { position: absolute; top: 42px; left: 42px; display: block; pointer-events: none; flex: none; }
+.identity-icon--gatherings { width: 148px; height: 145px; color: #F7BC61; }
+.identity-icon--fellowship { width: 132px; height: 130px; color: #F4EDE1; }
+.identity-icon--spaces { width: 142px; height: 143px; color: #F4EDE1; }
 .card-bottom { display: flex; align-items: end; justify-content: space-between; gap: 15px; }
 .arrow-link { display: grid; width: 54px; height: 54px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font-size: 24px; transition: transform .2s ease; }
 .path-card:hover .arrow-link { transform: translateX(-5px); } .en .path-card:hover .arrow-link { transform: translateX(5px); }
@@ -355,6 +354,10 @@ footer { padding: 32px 0 42px; }
   .star { width: 130px; height: 130px; }
   .paths-grid { gap: 12px; }
   .path-card { min-height: 350px; padding: 26px; }
+  .identity-icon { left: 24px; top: 24px; }
+  .identity-icon--gatherings { width: 96px; height: 94px; }
+  .identity-icon--fellowship { width: 86px; height: 85px; }
+  .identity-icon--spaces { width: 94px; height: 95px; }
   .path-card h3 { font-size: 34px; }
   .event-card { padding: 14px; border-radius: 30px; }
   .event-visual { min-height: 360px; }
