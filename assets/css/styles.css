@@ -224,9 +224,9 @@ img { display: block; max-width: 100%; }
 .path-card p { max-width: 92%; font-size: 18px; line-height: 1.8; }
 .path-card.orange { background: var(--orange); } .path-card.blue { background: var(--blue); color: white; } .path-card.green { background: var(--green); }
 .identity-icon { position: absolute; top: 42px; left: 42px; display: block; pointer-events: none; flex: none; }
-.identity-icon--gatherings { width: 148px; height: 145px; color: #F7BC61; }
+.identity-icon--gatherings { width: 100px; height: 98px; color: #F7BC61; }
 .identity-icon--fellowship { width: 132px; height: 130px; color: #F4EDE1; }
-.identity-icon--spaces { width: 142px; height: 143px; color: #F4EDE1; }
+.identity-icon--spaces { width: 96px; height: 97px; color: #F4EDE1; }
 .card-bottom { display: flex; align-items: end; justify-content: space-between; gap: 15px; }
 .arrow-link { display: grid; width: 54px; height: 54px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font-size: 24px; transition: transform .2s ease; }
 .path-card:hover .arrow-link { transform: translateX(-5px); } .en .path-card:hover .arrow-link { transform: translateX(5px); }
