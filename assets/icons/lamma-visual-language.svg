@@ -139,4 +139,9 @@
   <symbol id="doodle-long-arrow" viewBox="0 0 210 90">
     <path d="M10 30C63 79 137 76 188 28M174 27L189 27L185 42" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
+
+  <symbol id="doodle-underline-arrow" viewBox="0 0 240 40">
+    <path d="M5 24C70 26 120 24 196 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M185 12L205 24L185 36" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
 </svg>
