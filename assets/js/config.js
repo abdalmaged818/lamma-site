@@ -10,9 +10,10 @@ window.LAMMA_CONFIG = Object.freeze({
     contact: "TALLY_CONTACT_URL"
   }),
   social: Object.freeze({
-    instagram: "INSTAGRAM_URL",
+    instagram: "https://www.instagram.com/bylmmah?igsh=MXFoMnJ3NGxqdnAybw==",
+    linkedin: "https://www.linkedin.com/company/bylmmah/",
+    linktree: "https://linktr.ee/Bylmmah",
     tiktok: "TIKTOK_URL",
-    linkedin: "LINKEDIN_URL",
     x: "X_URL"
   })
 });

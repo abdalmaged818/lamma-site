@@ -72,9 +72,8 @@
           <nav class="footer-nav" aria-label="Footer navigation">${navLinks("footer-link")}</nav>
           <div class="socials" aria-label="Social media">
             <a data-config-href="social.instagram" data-fallback="disabled" href="${pages.contact.href}">Instagram</a>
-            <a data-config-href="social.tiktok" data-fallback="disabled" href="${pages.contact.href}">TikTok</a>
             <a data-config-href="social.linkedin" data-fallback="disabled" href="${pages.contact.href}">LinkedIn</a>
-            <a data-config-href="social.x" data-fallback="disabled" href="${pages.contact.href}">X</a>
+            <a data-config-href="social.linktree" data-fallback="disabled" href="${pages.contact.href}">Linktree</a>
           </div>
         </div>`;
     }
@@ -100,7 +99,10 @@
       if (isExternalUrl(value)) {
         link.href = value;
         link.target = "_blank";
-        link.rel = "noreferrer";
+        link.rel = "noopener noreferrer";
+        link.removeAttribute("aria-disabled");
+        link.removeAttribute("tabindex");
+        link.classList.remove("is-disabled");
         link.removeAttribute("data-unconfigured");
         link.hidden = false;
       } else {
@@ -113,6 +115,7 @@
         if (link.dataset.fallback === "disabled") {
           link.removeAttribute("href");
           link.setAttribute("aria-disabled", "true");
+          link.setAttribute("tabindex", "-1");
           link.classList.add("is-disabled");
           if (!link.querySelector(".soon-badge")) {
             link.insertAdjacentHTML("beforeend", '<span class="soon-badge" data-ar="قريبًا" data-en="Soon">قريبًا</span>');
