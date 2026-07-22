@@ -664,7 +664,7 @@ footer { padding: 20px 0 28px; }
   .micro { margin-top: 12px; font-size: 14px; }
 
   body[data-page="home"] #paths { padding: 48px 0 56px; }
-  body[data-page="home"] #about,
+  body[data-page="home"] #about { padding: 32px 0 var(--mobile-section-space); }
   body[data-page="home"] .outcomes-section { padding: var(--mobile-section-space) 0; }
   .paths-intro { margin-bottom: 26px; }
   .paths-intro .title { max-width: 94%; margin-inline: auto; font-size: clamp(40px, 10.5vw, 52px); line-height: 1.15; }
@@ -752,51 +752,53 @@ footer { padding: 20px 0 28px; }
   .stat-unit { padding: 0; font-size: clamp(24px, 6.5vw, 28px); }
   .stat-card p { margin: 12px 0 0; font-size: 17px; }
 
-  .brand-break { padding: 0 0 48px; }
-  .break-panel { min-height: 360px; padding: 46px 24px; border-radius: var(--mobile-card-radius); }
+  .brand-break { padding: 0 0 44px; }
+  .break-panel { min-height: 320px; padding: 40px 24px; border-radius: var(--mobile-card-radius); }
   .break-panel h2 { max-width: 14ch; font-size: clamp(32px, 9vw, 39px); line-height: 1.2; }
   .break-icon { top: 20px; right: 20px; width: 46px; }
   .en .break-icon { right: auto; left: 20px; }
 
   .outcomes-section .title { font-size: clamp(40px, 10.5vw, 52px); line-height: 1.15; }
   .outcomes { grid-template-columns: 1fr; gap: 16px; }
-  .outcome { display: grid; min-height: 150px; align-content: center; padding: 24px; text-align: center; }
+  .outcome { display: grid; min-height: 136px; align-content: center; padding: 22px; text-align: center; }
   .outcome strong { margin-bottom: 12px; font-size: clamp(30px, 8vw, 36px); }
   .outcome p { font-size: 17px; line-height: 1.68; }
 
   .cta { padding: 0 0 40px; }
-  .cta-panel { min-height: 330px; grid-template-columns: 1fr; align-content: center; gap: 16px; padding: 28px 24px 32px; border-radius: var(--mobile-card-radius); }
+  .cta-panel { min-height: 310px; grid-template-columns: 1fr; align-content: center; gap: 16px; padding: 28px 24px 32px; border-radius: var(--mobile-card-radius); }
   .cta-panel h2 { font-size: clamp(44px, 11.5vw, 54px); line-height: 1.1; }
   .cta-copy { margin-bottom: 14px; font-size: 17px; line-height: 1.7; }
   .cta-actions { align-items: center; gap: 10px; }
   .cta-star { inset-inline-end: 20px; bottom: 18px; width: 76px; }
 
-  .inner-hero { padding: 36px 0 42px; }
-  .inner-hero-grid { gap: 22px; }
+  .inner-hero { padding: 32px 0 34px; }
+  .inner-hero-grid { gap: 18px; }
   .inner-hero .title { margin: 12px 0 14px; font-size: clamp(46px, 12.5vw, 58px); line-height: 1.12; }
+  .en .inner-hero .title { font-size: clamp(42px, 10.6vw, 48px); line-height: 1.14; }
   .inner-hero .lead { max-width: 34ch; font-size: 18px; line-height: 1.68; }
-  .inner-visual { width: 100%; height: clamp(280px, 74vw, 320px); min-height: 0; aspect-ratio: auto; border-radius: var(--mobile-card-radius); }
-  .lamma-hero-mark { width: clamp(104px, 30vw, 132px); }
-  .lamma-hero-doodle { inset-inline-start: 18px; bottom: 16px; width: 112px; }
+  .inner-visual { width: 100%; height: clamp(220px, 58vw, 260px); min-height: 0; aspect-ratio: auto; border-radius: var(--mobile-card-radius); }
+  .lamma-hero-mark { width: clamp(86px, 24vw, 108px); }
+  .lamma-hero-doodle { inset-inline-start: 18px; bottom: 14px; width: 92px; }
 
   .inner-hero + .section { padding: 48px 0; }
   .program-section { padding-top: 44px; }
   .program-section .container { gap: 16px; }
-  .content-card { min-height: 220px; align-content: center; gap: 18px; padding: 26px 22px; border-radius: var(--mobile-card-radius); }
+  .content-card { min-height: 196px; align-content: center; gap: 18px; padding: 24px 22px; border-radius: var(--mobile-card-radius); }
   .content-card h2 { font-size: clamp(32px, 8.8vw, 40px); line-height: 1.2; }
   .placeholder-grid { grid-template-columns: 1fr; gap: 16px; margin-top: 16px; }
-  .placeholder-card { min-height: 130px; padding: 24px; border-radius: var(--mobile-card-radius); }
+  .placeholder-card { min-height: 108px; padding: 20px; border-radius: var(--mobile-card-radius); }
   .placeholder-card strong,
   body[data-page="gatherings"] .placeholder-card strong,
   body[data-page="fellowship"] .placeholder-card strong,
   body[data-page="spaces"] .placeholder-card strong,
-  body[data-page="spaces"] .placeholder-card:nth-child(-n+2) strong { font-size: clamp(32px, 9vw, 42px); line-height: 1.16; }
+  body[data-page="spaces"] .placeholder-card:nth-child(-n+2) strong { font-size: clamp(28px, 8.2vw, 36px); line-height: 1.16; }
 
   body[data-page="contact"] .inner-hero { padding-bottom: 40px; }
+  body[data-page="contact"].en .contact-title { font-size: clamp(44px, 10.8vw, 50px); }
   body[data-page="contact"] .inner-hero .lead { max-width: none; font-size: 18px; line-height: 1.68; }
   body[data-page="contact"].en .inner-hero .lead { font-size: 18px; }
   .contact-grid { grid-template-columns: 1fr; gap: 16px; margin-top: 22px; }
-  body[data-page="contact"] .contact-option { min-height: 148px; padding: 22px; padding-inline-end: 22px; }
+  body[data-page="contact"] .contact-option { min-height: 136px; padding: 22px; padding-inline-end: 22px; }
   body[data-page="contact"] .contact-option strong { font-size: clamp(28px, 7.8vw, 34px); }
   body[data-page="contact"] .contact-option .arrow-link { inset-inline-end: 20px; margin-top: -26px; }
 
@@ -811,7 +813,7 @@ footer { padding: 20px 0 28px; }
   :root { --mobile-section-space: 52px; --mobile-card-padding: 24px; }
   .hero { padding: 30px 0 40px; }
   .hero .title { font-size: clamp(48px, 13vw, 56px); }
-  body[data-page="home"] #paths { padding: 44px 0 52px; }
+  body[data-page="home"] #paths { padding: 44px 0 42px; }
   .paths-intro { margin-bottom: 24px; }
   .inner-hero { padding: 32px 0 38px; }
   .inner-hero .title { font-size: clamp(46px, 12.5vw, 56px); }
