@@ -363,7 +363,7 @@ body[data-page="spaces"] { --inner-primary: var(--green); --inner-mark: var(--bg
 .content-card h2 { max-width: 780px; margin: 0; font-size: clamp(34px, 4.2vw, 52px); line-height: 1.15; }
 .content-card p { max-width: 720px; margin: 0; color: rgba(34,34,34,.7); font-size: 18px; line-height: 1.75; }
 .placeholder-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 0; }
-.placeholder-card { display: grid; min-height: 260px; place-items: end start; padding: 24px; border: 1px solid rgba(34,34,34,.12); border-radius: var(--radius-small); text-align: start; }
+.placeholder-card { display: grid; min-height: 150px; place-items: center start; padding: 24px; border: 1px solid rgba(34,34,34,.12); border-radius: var(--radius-small); text-align: start; }
 .placeholder-card strong { display: block; max-width: 15ch; margin: 0; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.18; }
 .placeholder-card p { font-size: 16px; line-height: 1.7; opacity: .76; }
 body[data-page="gatherings"] .placeholder-card:nth-child(1) { background: var(--orange); }
@@ -564,7 +564,7 @@ footer { padding: 20px 0 28px; }
   .content-card { min-height: 220px; align-content: center; gap: 18px; padding: 26px 22px; border-radius: var(--mobile-card-radius); }
   .content-card h2 { font-size: clamp(32px, 8.8vw, 40px); line-height: 1.2; }
   .placeholder-grid { grid-template-columns: 1fr; gap: 16px; margin-top: 16px; }
-  .placeholder-card { min-height: 170px; padding: 24px; border-radius: var(--mobile-card-radius); }
+  .placeholder-card { min-height: 130px; padding: 24px; border-radius: var(--mobile-card-radius); }
   .placeholder-card strong,
   body[data-page="gatherings"] .placeholder-card strong,
   body[data-page="fellowship"] .placeholder-card strong,
