@@ -8,7 +8,7 @@
 
   const pages = {
     home: { href: `${root}index.html`, ar: "الرئيسية", en: "Home" },
-    gatherings: { href: `${root}gatherings/index.html`, ar: "اللمات", en: "Gatherings" },
+    gatherings: { href: `${root}gatherings/index.html`, ar: "اللُمّات", en: "Gatherings" },
     fellowship: { href: `${root}fellowship/index.html`, ar: "الزمالة الإبداعية", en: "Creative Fellowship" },
     spaces: { href: `${root}spaces/index.html`, ar: "المساحات المشتركة", en: "Shared Spaces" },
     contact: { href: `${root}contact/index.html`, ar: "التواصل والانضمام", en: "Contact / Join" }
@@ -30,13 +30,13 @@
         <div class="nav-wrap">
           <div class="container">
             <nav class="nav" aria-label="Primary navigation">
-              <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
+              <a class="brand" href="${pages.home.href}" aria-label="Lmmah home">
                 <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
               </a>
               <div class="nav-links">${navLinks("nav-link")}</div>
               <div class="nav-actions">
                 <button class="lang" type="button" data-lang-toggle aria-label="Switch language">EN</button>
-                <a class="btn small nav-join" href="${pages.contact.href}" data-ar="انضم للمجتمع ✦" data-en="Join the Community ✦">انضم للمجتمع ✦</a>
+                <a class="btn small nav-join" href="${pages.contact.href}" data-ar="انضم للُمّة ✦" data-en="Join Lmmah ✦">انضم للُمّة ✦</a>
                 <button class="menu-btn" type="button" data-menu-open aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
                   <span></span><span></span><span></span>
                 </button>
@@ -48,14 +48,14 @@
           <button class="mobile-menu-backdrop" type="button" data-menu-close aria-label="Close menu"></button>
           <div class="mobile-menu-panel" role="dialog" aria-modal="true" aria-label="Mobile navigation">
             <div class="mobile-menu-top">
-              <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
+              <a class="brand" href="${pages.home.href}" aria-label="Lmmah home">
                 <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
               </a>
               <button class="menu-close" type="button" data-menu-close aria-label="Close menu">×</button>
             </div>
             <div class="mobile-links">${navLinks("mobile-link")}</div>
             <button class="lang mobile-lang" type="button" data-lang-toggle aria-label="Switch language">EN</button>
-            <a class="btn mobile-join" href="${pages.contact.href}" data-ar="انضم للمجتمع ✦" data-en="Join the Community ✦">انضم للمجتمع ✦</a>
+            <a class="btn mobile-join" href="${pages.contact.href}" data-ar="انضم للُمّة ✦" data-en="Join Lmmah ✦">انضم للُمّة ✦</a>
           </div>
         </div>`;
     }
@@ -64,10 +64,10 @@
       footer.innerHTML = `
         <div class="container footer">
           <div>
-            <a class="brand" href="${pages.home.href}" aria-label="Lamma home">
+            <a class="brand" href="${pages.home.href}" aria-label="Lmmah home">
               <img class="brand-logo" src="${root}assets/images/logo/lamma-logo.svg" alt="" width="75" height="42">
             </a>
-            <small data-ar="مجتمع إبداعي | إحدى منتجات وكالة حبك" data-en="A creative community | A product by Habak Agency">مجتمع إبداعي | إحدى منتجات وكالة حبك</small>
+            <small data-ar="مجتمع إبداعي من المدينة المنورة | برنامج المسؤولية الاجتماعية من وكالة حبك" data-en="A creative community from Madinah | Habak Agency’s social responsibility program">مجتمع إبداعي من المدينة المنورة | برنامج المسؤولية الاجتماعية من وكالة حبك</small>
           </div>
           <nav class="footer-nav" aria-label="Footer navigation">${navLinks("footer-link")}</nav>
           <div class="socials" aria-label="Social media">
