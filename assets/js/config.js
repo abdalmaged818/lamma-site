@@ -14,6 +14,6 @@ window.LAMMA_CONFIG = Object.freeze({
     linkedin: "https://www.linkedin.com/company/bylmmah/",
     linktree: "https://linktr.ee/Bylmmah",
     tiktok: "TIKTOK_URL",
-    x: "X_URL"
+    x: "https://x.com/bylmmah?s=21"
   })
 });
