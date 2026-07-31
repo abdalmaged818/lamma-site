@@ -74,6 +74,7 @@
             <a data-config-href="social.instagram" data-fallback="disabled" href="${pages.contact.href}">Instagram</a>
             <a data-config-href="social.linkedin" data-fallback="disabled" href="${pages.contact.href}">LinkedIn</a>
             <a data-config-href="social.linktree" data-fallback="disabled" href="${pages.contact.href}">Linktree</a>
+            <a data-config-href="social.x" data-fallback="disabled" href="${pages.contact.href}" data-ar="X" data-en="X">X</a>
           </div>
         </div>`;
     }
